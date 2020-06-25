@@ -1,5 +1,4 @@
 import pygame
-import time
 import random
 
 head_color = (0,90,0)											#marking colors I will need
@@ -80,7 +79,7 @@ def gameover(screen,game_over,done):				#game over funciton
 	option2 = pygame.font.SysFont(None, 50).render('Press R to restart', True, food_color)
 	screen.blit(lost,[width//4,height//4])
 	screen.blit(option1,[width//4,height//4+50])
-	screen.blit(option2,[width//4,height//4+80])
+	screen.blit(option2,[width//4,height//4+100])
 	pygame.display.update()
 
 	for event in pygame.event.get():
