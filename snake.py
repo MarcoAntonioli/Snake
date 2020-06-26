@@ -146,7 +146,7 @@ def start(): 													#main function
 #De-initializing and closing
 	#pygame.display.quit()
 	pygame.quit()												#being gentle with the IDLE, semicit.
-	
+	quit()
 
 #call the main frame and start the game
 start()
